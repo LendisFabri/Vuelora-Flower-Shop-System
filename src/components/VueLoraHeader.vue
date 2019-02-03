@@ -1,0 +1,26 @@
+<template>
+  <v-toolbar dark color="pink darken-1">
+    
+    <v-toolbar-side-icon></v-toolbar-side-icon>
+
+    <v-toolbar-title class="white-text">Vuelora</v-toolbar-title>
+
+    <v-spacer></v-spacer>
+
+    <v-btn icon>
+      <v-badge left overlap color="pink darken-2">
+        <span slot="badge">1</span>
+        <v-icon>shopping_cart</v-icon>
+      </v-badge>
+    </v-btn>
+
+    <v-text-field
+      slot="extension"
+      hide-details
+      flat
+      label="Temukan bunga favoritmu"
+      prepend-inner-icon="search"
+      solo-interved
+    ></v-text-field>
+  </v-toolbar>
+</template>
