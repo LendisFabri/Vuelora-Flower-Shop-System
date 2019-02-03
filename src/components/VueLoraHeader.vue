@@ -3,7 +3,7 @@
     
     <v-toolbar-side-icon></v-toolbar-side-icon>
 
-    <v-toolbar-title class="white-text">Vuelora</v-toolbar-title>
+    <v-toolbar-title class="white-text">VueLora</v-toolbar-title>
 
     <v-spacer></v-spacer>
 
