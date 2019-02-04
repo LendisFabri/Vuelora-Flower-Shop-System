@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<v-container>
-			<h1>This is an home page</h1>
+			<h3>Kontribusi: https://github.com/LendisFabri/vuelora-web-dev</h3>
 		</v-container>
 	</div>
 </template>

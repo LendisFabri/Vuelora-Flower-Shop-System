@@ -39,7 +39,7 @@
 						white--text
 						xs12
 					>
-					&copy;2018 - VueLora powered by <strong>Laravel and Vue</strong><v-icon>laravel</v-icon>
+					&copy;2019 - VueLora powered by <strong>Laravel and Vue</strong><v-icon>laravel</v-icon>
 					</v-flex>
 				</v-layout>
 			</v-card>

@@ -29,7 +29,7 @@
 <script>
   import {mapGetters, mapActions} from 'vuex'
   export default{
-    name:'c-header',
+    name:'vuelora-header',
     methods:{
       ...mapActions({
           setSideBar:'setSideBar',

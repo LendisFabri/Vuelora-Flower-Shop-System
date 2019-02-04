@@ -1,6 +1,6 @@
 <template>
 	<v-navigation-drawer v-model="drawer" absolute fixed clipped>
-		<v-toolbar dark color="primary">
+		<v-toolbar dark color="pink darken-1">
 			<v-btn icon dark @click="drawer=false">
 				<v-icon>close</v-icon>
 			</v-btn>
@@ -13,7 +13,7 @@
 					depressed
 					block
 					round
-					color="secondary"
+					color="pink darken-1"
 					class="white--text"
 				>Register
 					<v-icon right dark>person_add</v-icon>
@@ -24,7 +24,7 @@
 					block
 					round
 					depressed
-					color="accent lighten-1"
+					color="pink darken-1"
 					class="white--text"
 				>Login
 					<v-icon right dark>lock_open</v-icon>
@@ -54,7 +54,7 @@
 <script>
 	import {mapGetters, mapActions} from 'vuex'
 	export default{
-		name:'c-side-bar',
+		name:'vuelora-side-bar',
 		data:()=>({
 			// drawer:true,
 			items:[
