@@ -2,7 +2,7 @@
 	<v-footer dark height="auto">
 		<v-flex xs12>
 			<v-card
-				fla tile
+				flat tile
 				class="secondary darken-1 white--text text-xs-center"
 			>
 
@@ -39,7 +39,7 @@
 						white--text
 						xs12
 					>
-					&copy;2018 - VueLora powered by <strong>Laravel and Vue</strong>
+					&copy;2018 - VueLora powered by <strong>Laravel and Vue</strong><v-icon>laravel</v-icon>
 					</v-flex>
 				</v-layout>
 			</v-card>
@@ -57,7 +57,7 @@
 				'fab fa-linkedin',
 				'fab fa-instagram'
 			],
-			link:[
+			links:[
 				'Home',
 				'About Us',
 				'Team',

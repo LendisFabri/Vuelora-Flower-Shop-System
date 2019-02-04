@@ -21,7 +21,7 @@
   </v-app>
 </template>
 
-<!-- <script>
+<script>
   import VueLoraHeader from '@/components/VueLoraHeader.vue'
   export default{
     name:'App',
@@ -29,4 +29,4 @@
       VueLoraHeader
     },
   }
-</script> -->
+</script>

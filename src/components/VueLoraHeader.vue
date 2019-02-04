@@ -16,6 +16,7 @@
 
     <v-text-field
       slot="extension"
+      color="white"
       hide-details
       flat
       label="Temukan bunga favoritmu"
