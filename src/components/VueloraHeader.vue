@@ -9,8 +9,8 @@
 
     <v-btn icon>
       <v-badge left overlap color="pink darken-2">
-        <span slot="badge">1</span>
-        <v-icon>shopping_cart</v-icon>
+        <span slot="badge">99</span>
+        <v-icon>shopping_basket</v-icon>
       </v-badge>
     </v-btn>
 
