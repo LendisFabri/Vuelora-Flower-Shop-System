@@ -54,7 +54,7 @@
 <script>
 	import {mapGetters, mapActions} from 'vuex'
 	export default{
-		name:'vuelora-sidebar',
+		name:'c-side-bar',
 		data:()=>({
 			// drawer:true,
 			items:[
@@ -77,7 +77,7 @@
 		},
 		methods:{
 			...mapActions({
-				setSideBar:'setSideBar'
+				setSideBar:'setSideBar',
 			}),
 		},
 	}

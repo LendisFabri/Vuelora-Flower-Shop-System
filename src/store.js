@@ -13,10 +13,10 @@ export default new Vuex.Store({
   	}
   },
   actions: {
-  	setSideBar:({comit}, value)=>{
+  	setSideBar:({commit}, value)=>{
   		commit('setSideBar', value)
   	}
-  }
+  },
   getters:{
   	sideBar:state=>state.sideBar
   }

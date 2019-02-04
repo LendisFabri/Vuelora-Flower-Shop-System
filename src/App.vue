@@ -1,12 +1,12 @@
 <template>
   <v-app>
-    <vuelora-header>
+    <c-header>
 
-    </vuelora-header>
+    </c-header>
 
-    <vuelora-sidebar>
+    <c-side-bar>
       
-    </vuelora-sidebar>
+    </c-side-bar>
 
     <v-content>
       <v-slide-y-transition mode="out-in">
@@ -14,23 +14,23 @@
       </v-slide-y-transition>
     </v-content>
 
-    <vuelora-footer>
+    <c-footer>
       
-    </vuelora-footer>
+    </c-footer>
 
   </v-app>
 </template>
 
 <script>
-  import VueLoraHeader from '@/components/VueLoraHeader.vue'
-  import VueLoraFooter from '@/components/VueLoraFooter.vue'
-  import VueLoraSidebar from '@/components/VueLoraSidebar.vue'
+  import CHeader from '@/components/CHeader.vue'
+  import CFooter from '@/components/CFooter.vue'
+  import CSideBar from '@/components/CSideBar.vue'
   export default{
     name:'App',
     components: {
-      VueLoraHeader,
-      VueLoraFooter,
-      VueLoraSidebar
+      CHeader,
+      CFooter,
+      CSideBar
     },
   }
 </script>

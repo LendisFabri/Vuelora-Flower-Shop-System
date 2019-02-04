@@ -17,7 +17,7 @@
 					</v-btn>
 				</v-card-text>
 
-				<v-card-text v-if="isHome" class="white--text pt-0">
+				<v-card-text v-if="" class="white--text pt-0">
 					Lorem ipsum sit dolor amet ...
 				</v-card-text>
 

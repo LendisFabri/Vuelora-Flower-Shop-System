@@ -29,12 +29,12 @@
 <script>
   import {mapGetters, mapActions} from 'vuex'
   export default{
-    name:'vuelora-header',
+    name:'c-header',
     methods:{
       ...mapActions({
           setSideBar:'setSideBar',
       }),
-    }
+    },
     computed:{
       ...mapGetters({
           sideBar:'sideBar',
