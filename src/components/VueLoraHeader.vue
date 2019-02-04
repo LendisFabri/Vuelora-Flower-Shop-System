@@ -1,7 +1,7 @@
 <template>
   <v-toolbar dark color="pink darken-1">
     
-    <v-toolbar-side-icon></v-toolbar-side-icon>
+    <v-toolbar-side-icon @click="setSideBar(!sideBar)"></v-toolbar-side-icon>
 
     <v-toolbar-title class="white-text">VueLora</v-toolbar-title>
 
@@ -25,3 +25,20 @@
     ></v-text-field>
   </v-toolbar>
 </template>
+
+<script>
+  import {mapGetters, mapActions} from 'vuex'
+  export default{
+    name:'vuelora-header',
+    methods:{
+      ...mapActions({
+          setSideBar:'setSideBar',
+      }),
+    }
+    computed:{
+      ...mapGetters({
+          sideBar:'sideBar',
+      }),
+    }
+  }
+</script>

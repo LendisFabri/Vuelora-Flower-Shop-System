@@ -63,7 +63,7 @@
 			]
 		}),
 		computed:{
-			mapGetters({
+			...mapGetters({
 				sideBar:'sideBar',
 			}),
 			drawer:{
@@ -76,7 +76,7 @@
 			},
 		},
 		methods:{
-			mapActions({
+			...mapActions({
 				setSideBar:'setSideBar'
 			}),
 		},
