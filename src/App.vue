@@ -23,10 +23,14 @@
 
 <script>
   import VueLoraHeader from '@/components/VueLoraHeader.vue'
+  import VueLoraFooter from '@/components/VueLoraFooter.vue'
+  import VueLoraSidebar from '@/components/VueLoraSidebar.vue'
   export default{
     name:'App',
     components: {
-      VueLoraHeader
+      VueLoraHeader,
+      VueLoraFooter,
+      VueLoraSidebar
     },
   }
 </script>

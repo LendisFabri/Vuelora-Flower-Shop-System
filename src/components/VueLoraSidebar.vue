@@ -1,7 +1,7 @@
 <template>
 	<v-navigation-drawer v-model="drawer" absolute fixed clipped>
 		<v-toolbar dark color="primary">
-			<v-btn icon dark>
+			<v-btn icon dark @click="drawer=false">
 				<v-icon>close</v-icon>
 			</v-btn>
 			<v-toolbar-title>VueLora</v-toolbar-title>
@@ -52,14 +52,33 @@
 	</v-navigation-drawer>
 </template>
 <script>
+	import {mapGetters, mapActions} from 'vuex'
 	export default{
 		name:'vuelora-sidebar',
 		data:()=>({
-			drawer:true,
+			// drawer:true,
 			items:[
 				{title:'Home', icon:'dashboard', route:'home'},
 				{title:'About', icon:'question_answer', route:'about'}
 			]
-		})
+		}),
+		computed:{
+			mapGetters({
+				sideBar:'sideBar',
+			}),
+			drawer:{
+				get(){
+					return this.sideBar
+				},
+				set(value){
+					this.setSideBar(value)
+				}
+			},
+		},
+		methods:{
+			mapActions({
+				setSideBar:'setSideBar'
+			}),
+		},
 	}
 </script>
