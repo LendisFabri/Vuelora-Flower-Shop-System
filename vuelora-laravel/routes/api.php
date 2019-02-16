@@ -19,6 +19,7 @@ Route::prefix('v1')->group(function(){
 	Route::post('register', 'AuthController@register');
 
 	Route::get('kategori/random{$count}', 'KategoriController@random');
+	Route::get('bunga/top/{count}', 'BungaController@top');
 
 	Route::middleware(['auth:api'])->group(function () {
     	Route::post('logout', 'AuthController@logout');
