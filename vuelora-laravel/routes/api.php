@@ -18,8 +18,8 @@ Route::prefix('v1')->group(function(){
 	Route::post('login', 'AuthController@login');
 	Route::post('register', 'AuthController@register');
 
-	Route::get('kategori/random{$count}', 'KategoriController@random');
-	Route::get('bunga/top/{count}', 'BungaController@top');
+	Route::get('categories/random{count}', 'CategoryController@random');
+	Route::get('flowers/top/{count}', 'FlowerController@top');
 
 	Route::middleware(['auth:api'])->group(function () {
     	Route::post('logout', 'AuthController@logout');

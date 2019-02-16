@@ -4,7 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
-class Kategori extends ResourceCollection
+class Flowers extends ResourceCollection
 {
     /**
      * Transform the resource collection into an array.
@@ -14,11 +14,10 @@ class Kategori extends ResourceCollection
      */
     public function toArray($request)
     {
-        // return parent::toArray($request);
-        return [
-            'status'=>'sukses',
-            'pesan'=>'kategori data',
-            'data'=>parent::toArray($request),
+        return[
+            'status' => 'sukses',
+            'message' => 'data bunga',
+            'data' => parent::toArray($request),
         ];
     }
 }

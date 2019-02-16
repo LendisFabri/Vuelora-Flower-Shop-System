@@ -4,7 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
-class Bunga extends ResourceCollection
+class Categories extends ResourceCollection
 {
     /**
      * Transform the resource collection into an array.
@@ -14,10 +14,11 @@ class Bunga extends ResourceCollection
      */
     public function toArray($request)
     {
-        return[
-            'status' => 'sukses',
-            'pesan' => 'data bunga',
-            'data' => parent::toArray($request),
+        // return parent::toArray($request);
+        return [
+            'status'=>'sukses',
+            'message'=>'kategori data',
+            'data'=>parent::toArray($request),
         ];
     }
 }
