@@ -12,4 +12,5 @@ class BungaController extends Controller
     	->orderBy('views', 'DESC')
     	->limit($count)
     	->get();
+    return new BungaResourceCollection($kriteria);
 }
